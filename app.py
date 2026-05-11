@@ -1,10 +1,7 @@
 from flask import Flask
-
 app = Flask(__name__)
-
 @app.route('/')
 def home():
-    return "Hello depuis le Raspberry Pi - Groupe 158 !"
-
+    return "Hello MODIFIE par Jenkins - LeniMoras !"
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
