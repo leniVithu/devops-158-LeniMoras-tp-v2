@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/leniVithu/devops-158-LeniMoras-tp.git'
+                git branch: 'main', url: 'https://github.com/leniVithu/devops-158-LeniMoras-tp-v2.git'
             }
         }
 
